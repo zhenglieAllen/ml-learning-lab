@@ -1,0 +1,20 @@
+# ml-learning-lab 基础依赖
+#
+# 创建环境：
+#   uv venv && source .venv/bin/activate
+#   uv pip install -r requirements.txt
+#
+# 当前机器已验证的版本（2026-10-26）：
+#   Python 3.14.7 / numpy 2.5.4
+#
+# 各子项目在自己的 README.md 中记录实际使用的版本。
+
+numpy>=1.24
+pytest>=7.0
+matplotlib>=3.7
+
+# 阶段 2–4 需要时再装（不要一次装满）：
+# torch>=2.0
+# transformers>=4.40
+# datasets>=2.18
+# scikit-learn>=1.3

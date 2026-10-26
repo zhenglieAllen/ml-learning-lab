@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.Python
+build/
+dist/
+
+# 虚拟环境
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# 测试与缓存
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# 实验产物（结果文件按需保留在 results/，此处忽略大文件）
+*.h5
+*.ckpt
+*.pt
+*.pth
+*.onnx
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# OMC 工具状态
+.omc/
+
+# 临时文件
+tmp/
+*.tmp
